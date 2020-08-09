@@ -4,6 +4,9 @@ As a developer there will come a time when you have to SSH onto a
 server to do some file edits. It's at these times when you're reminded
 of the existence of command line text editors.
 
+There are [a few] but the most common ones that I have come across
+have been Vi and nano.
+
 ## Opening and Creating Files
 
 ```bash
@@ -32,6 +35,35 @@ Unlike Vim nano doesn't have modes which means you don't need to `Esc`
 and `:q!` to exit, with intuitive navigation around a document. i.e.
 move the cursor with the arrow keys.
 
+To exit nano it's `Ctrl+x` and you will prompted if you have made any
+changes wheather or not you would like to save them before exiting.
+
 ## Resources
 
 nano docs: https://www.nano-editor.org/
+
+<!-- Links -->
+
+[a few]: https://itsfoss.com/command-line-text-editors-linux/
+
+### Made with 💜 by <a href='https://ss10.dev' goal='LBBKKK7B'>Scott Spence</a>
+
+Socials:
+
+- <a href='https://ss10.dev/twitter' goal='II7VIVYV'>
+    Twitter
+  </a>
+- <a href='https://ss10.dev/git' goal='CRBDUSXZ'>
+    GitHub
+  </a>
+
+More projects:
+
+- <a href='https://ss10.dev/blog' goal='VFSJCH34'>
+    Garden
+  </a>
+- <a href='https://cheatsheets.xyz' goal='CASBWEJM'>
+    Cheat Sheets
+  </a>
+- <a href='https://github.com/spences10/react-seo-component' goal='S6TKIWHH'>React
+  SEO Component</a>
