@@ -42,28 +42,30 @@ changes wheather or not you would like to save them before exiting.
 
 nano docs: https://www.nano-editor.org/
 
-<!-- Links -->
-
-[a few]: https://itsfoss.com/command-line-text-editors-linux/
+---
 
 ### Made with 💜 by <a href='https://ss10.dev' goal='LBBKKK7B'>Scott Spence</a>
 
 Socials:
 
-- <a href='https://ss10.dev/twitter' goal='II7VIVYV'>
+- <a href='https://ss10.dev/twitter' id='twitter'>
     Twitter
   </a>
-- <a href='https://ss10.dev/git' goal='CRBDUSXZ'>
+- <a href='https://ss10.dev/git' id='github'>
     GitHub
   </a>
 
 More projects:
 
-- <a href='https://ss10.dev/blog' goal='VFSJCH34'>
+- <a href='https://ss10.dev/blog' id='garden'>
     Garden
   </a>
-- <a href='https://cheatsheets.xyz' goal='CASBWEJM'>
+- <a href='https://cheatsheets.xyz' id='cheat-sheets'>
     Cheat Sheets
   </a>
-- <a href='https://github.com/spences10/react-seo-component' goal='S6TKIWHH'>React
+- <a href='https://github.com/spences10/react-seo-component' id='react-seo-component'>React
   SEO Component</a>
+
+<!-- Links -->
+
+[a few]: https://itsfoss.com/command-line-text-editors-linux/
