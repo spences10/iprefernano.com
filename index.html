@@ -37,6 +37,35 @@
     ></script>
     <!-- / Fathom -->
 
+    <script>
+      document.addEventListener('readystatechange', event => {
+        // https://stackoverflow.com/a/61064350/1138354
+        // When HTML/DOM elements are ready:
+        if (event.target.readyState === 'interactive') {
+          //does same as:  ..addEventListener("DOMContentLoaded"..
+          // alert('hi 1')
+        }
+
+        // When window loaded ( external resources are loaded too- `css`,`src`, etc...)
+        if (event.target.readyState === 'complete') {
+          // alert('hi 2')
+          const links = [
+            { id: `twitter`, goal: `ZLLWDVZX` },
+            { id: `github`, goal: `YMFO4OJ4` },
+            { id: `garden`, goal: `FCPHCIA4` },
+            { id: `cheat-sheets`, goal: `BMVGNXUB` },
+            { id: `react-seo-component`, goal: `PM50CAMN` },
+          ]
+          links.forEach(link => {
+            let el = document.getElementById(link.id)
+            el.addEventListener('click', () => {
+              fathom.trackGoal(link.goal, 0)
+            })
+          })
+        }
+      })
+    </script>
+
     <style>
       header {
         font-family: sans-serif;
