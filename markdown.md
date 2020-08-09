@@ -1,7 +1,3 @@
-# helloooooo
+# I Prefer GNU nano
 
-```js
-console.log("=====================");
-console.log(`yo`);
-console.log("=====================");
-```
+nano docs: https://www.nano-editor.org/
