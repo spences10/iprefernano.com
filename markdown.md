@@ -26,6 +26,12 @@ file on line 3 character 5 of the file:
 nano +3,5 new-file
 ```
 
+## Editing Files
+
+Unlike Vim nano doesn't have modes which means you don't need to `Esc`
+and `:q!` to exit, with intuitive navigation around a document. i.e.
+move the cursor with the arrow keys.
+
 ## Resources
 
 nano docs: https://www.nano-editor.org/
